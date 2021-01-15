@@ -5,6 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using WebAppVenda.Models;
+using WebAppVenda.Models.ViewModels;
 
 namespace WebAppVenda.Controllers
 {
@@ -17,7 +18,7 @@ namespace WebAppVenda.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Web system with ASP .NET Core MVC and Entity Framework";
 
             return View();
         }
